@@ -1,0 +1,24 @@
+Tema0 - Vintila Alexandra 332CB
+
+Implementare
+	Structura de date folosita pentru hashtable: vector de bucket-uri, fiecare bucket avand un vector de cuvinte si un counter pentru numarul de cuvinte din bucketul respectiv.
+	Metodele cu care se poate opera pe hashtable:
+
+	hashtable_new - aloca spatiu pentru un nou hashtable (pentru vectorul de bucket-uri care sunt goale in acest moment);
+
+	ht_delete - sterge si dealoca memoria pentru un hashtable;
+
+	ht_get - cauta un cuvant in functie de indexul acestuia intr-un anumit bucket parcurgand vectorul de valori aflate in bucket si intoarce 1 daca a gasit valoarea cautata sau 0 daca nu;
+
+	ht_put - aloca memorie si adauga un cuvant in functie de valoarea returnata de functia hash intr-un anumit bucket 
+
+	ht_remove - sterge o valoare din hashtable
+
+	ht_print_bucket / ht_print - afiseaza
+
+	ht_resize - modifica dimensiunea hashului
+
+	main - realizeaza citirea comenzilor si executa operatii pe hashtable in cooncordanta cu acestea
+		citirea cuvintelor si a fisierelor este facuta carcater cu caracter
+		citirea cuvintelor ar fi trebuit adaugate intr-o functie separata intrucat se repeta codul (nu mai fac acest lucru din lipsa de timp)
+
